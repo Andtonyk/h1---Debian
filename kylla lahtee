@@ -1,0 +1,46 @@
+Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS:llä, Google Chrome selaimella ja koneena on toiminut Legion 5 kannettava. 16Gt RAM, AMD Ryzen 7 5800H, NVIDIA Geforce 3070 ja 200GB vapaata levytilaa SSD-levyasemalla.
+
+# Alku laukaus Linuxille ja hyvää jatkoa VirtualMachinelle
+
+## Asennusta edeltavät toimet
+
+Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opettajan antaman verkkosivun osoitteen "terokarvinen.com".
+Linkki kuvaan
+
+
+Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
+linkki kuvaan
+
+Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
+linkki kuvaan
+
+Sivulla oli paljon tietoa itse kurssista ja useita linkkejä aineistoihin ja tehtäviin liittyen, tämän tehtävän kannalta tärkeimmät olivat sivua alaspäin mennessä kohdassa linkki "Install Debian on Virtualbox - Updated 2023". 
+Kyseisen linkin takaa löytyi saman nimin sivu, jossa oli ohjaistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
+
+## VirtualMachinen asentaminen koneelle
+
+Aloitin sivun kohdasta "Create a New Virtual Machine" avaamalla kentän linkin " download VirtualBox installer" uuteen välilehteen. Linnkki ohjasi minut VirtualMAchinen omien sivujen lataus-vaihtoehtoihin.
+Valitsin näistä uusimmaksi tarjotun vaihtoehdon, joka oli "VirtualBox 7.0.14" käyttöjärjestelmäni ollessa Windows, latasin sille sopivan version. Kyseinen latausvaihtoehto on oletuksellisesti 64-bittinen, ainakin Windowsille. 
+Jos käytössäsi ei ole Windowsia tai jos käyttöjärjestelmäsi vaatii 32-bittisen version, lataa omalle käyttöjärjestelmällesi sopiva versio VM:n lataussivulta.
+
+Onnistuneen latauksen jälkeen avasin tiedoston kansiosta, johon sen latasin.
+
+Asentaminen saattaa vaatia lupaa tietokoneelle tehtävien muutoksien osalta, jos koneen tietoturvassa on asetettu kyseinen varmistus. Tiedostin että olin itse ladannut ohjelman ja asentamassa sitä, joten myönsin sille luvan tehdä muutoksia koneeseeni.
+Sitten avautui itse VM:n asennus ikkuna. 
+linkki kuvaan
+
+Asennus oli yksinkertainen ja vaati ensin asennuskohdistuksen, jonka valitsemisen jälkeen voi painaa "Next". Itse en tehnyt oletukselliseen tallennuskohteeseen muutoksia.
+
+Tämän jälkeen VM-asennus ilmoittaa mahdollisesta tarpeesta VM:n verkosto-osien asennuksen yhteydessä hetkellisesti katkaista verkkoyhteyden, jotta käyttäjä voi ottaa kyseisen mahdollisen katkoksen huomioon muussa koneen käytössä.
+Jos mitään sellaista ohjelmaa tai toimintoa ei ole aktiivisena, joka vaatisi katkeamattoman nettiyhteyden voi asennuksen viedä eteenpäin.
+
+VM:n asennuksessa kesti itselläni noin minuutti, jonka jälkeen sain onnistuneen asennusilmoituksen ja kysymyksen avataanko VM-ohjelma asennuksen päätyttyä. Itse pidin täpän vaihtoehdossa, joka avasi ohjelman asennuksen päätyttyä.
+
+Kun pystyin todentamaan VM:n toiminnan sen avautumisen ja vetovalikkojen reaktiivisuuksien kautta, siirryin takaisin terokarvinen.com sivulle "Install Debian on Virtualbox - Updated 2023" ja aloitin LInux-paketin lataamisen mahdollistavat toimet.
+
+## Debianin asentaminen koneelle ja VirtualMachille
+
+
+
+
+
