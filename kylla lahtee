@@ -43,7 +43,7 @@ Kun pystyin todentamaan VM:n toiminnan sen avautumisen ja vetovalikkojen reaktii
 Vielä sivulla "Install Debian on Virtualbox - Updated 2023" oli aika aloittaa Linux-paketin lataus. Tämä oli mahdollista avaamalla sivulla oleva linkki (linkki kuvaan) uuteen välilehteen ja rullaamalla sivua alas, kunnes uusin mahdollinen versio tuli iso-tiedostomuodossa valittavaksi.
 Ohjelma-paketin lataaminen alkoi klikkaamalla haluttua pakettia. Kyseinen "debian-live-12.4.0-amd64-xfce.iso" oli kooltaan 3 Gt, jonka lataamisessa meni itselläni noin 9 minuuttia.
 
-Onnistuneen latauksen jälkeen kyseinen paketti on mahdollista avata VM:llä.
+Onnistuneen latauksen jälkeen kyseinen paketti on mahdollista avata VM:llä, jolloin itse LInuxin asentaminen VM:lle saattoi alkaa.
 
 
 
