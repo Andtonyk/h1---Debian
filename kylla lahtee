@@ -125,8 +125,15 @@ Asennuksen valmistuttua näkymä siirtyy automaattisesti viimeiseen kenttään "
 
 Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, jonka toteutin automaattisesti jättämällä täpän kohtaan "Restart now" ja valitsemalla tämän jälkeen "Done".
 
+Linkki kuvaan
 
+Uudelleen käynnistyksen jälkeen näkymä uudelleen käynnistyy sisäänkirjautumisen näkymään. Syötin tässä aiemmin muodostamini käyttäjätunnuksen sekä salasanan ja valitsin "Log In".
 
+Linkki kuvaan
 
+Virtuaalikone avautui käyttöjärjestelmän mukaiseen työpöytä-näkymään, jonka jälkeen avasin firefoxin ja syötin selaimen url-kenttään "terokarvinen.com". 
+Sivu avautui ongelmitta, joka tarkoitti että virtuaalisen koneeni verkkoyhteys toimi ja pystyin ilmoittamaan testini onnistuneesti suoritetuksi.
+
+Linkki kuvaan
 
 
