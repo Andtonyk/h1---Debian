@@ -36,6 +36,8 @@ Piratismi taas voidaan nähdä enemmänkin henkilön omana ratkaisuna ja vastala
 
 Vapaan ohjelmiston teeseihin kuuluu myös sisällyttää mahdollisen ohjelman lisäksi siihen liittyvä ohjeellinen dokumentaatio, sillä ohjelma ja ohjelman toiminnan kartoittava teksti nähdään erottumattomasti toisiinsa liitetyiksi.
 
+### Lähteet: https://www.gnu.org/philosophy/free-sw.html, Free Software Foundation, Inc. - What is Free Software? / https://www.gnu.org/philosophy/open-source-misses-the-point.html, Richard Stallman - Why Open Source Misses the Point of Free Software
+
 ---
 
 # H1 - Oma linux - A-Osio
@@ -222,3 +224,5 @@ Virtuaalikone avautui käyttöjärjestelmän mukaiseen työpöytä-näkymään, 
 Sivu avautui ongelmitta, joka tarkoitti että virtuaalisen koneeni verkkoyhteys toimi ja pystyin ilmoittamaan testini onnistuneesti suoritetuksi.
 
 ![Sisaankirjautuminen toimi ja samoin verkko](https://github.com/Andtonyk/h1---Debian/assets/149326156/f2baf909-015d-4b75-a84a-280665e071f4)
+
+### Lähteet: https://terokarvinen.com/, Tero Karvinen / https://www.virtualbox.org/wiki/Downloads, Oracle / https://www.debian.org/, Software in the Public Interest, Inc
