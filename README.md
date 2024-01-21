@@ -42,22 +42,33 @@ Onnistuneen latauksen jälkeen avasin tiedoston kansiosta, johon olin sen ladann
 Asentaminen saattaa vaatia lupaa tietokoneelle tehtävien muutoksien osalta, jos koneen tietoturvassa on asetettu kyseinen varmistus. Tiedostin että olin itse ladannut ohjelman ja asentamassa sitä, joten myönsin sille luvan tehdä muutoksia koneeseeni.
 Sitten avautui itse VM:n asennus ikkuna. 
 
-
+![VM asennus ikkuna](https://github.com/Andtonyk/h1---Debian/assets/149326156/6ffdb35f-c116-414c-999d-f598e4b7b072)
 
 Asennus oli yksinkertainen ja vaati ensin asennuskohdistuksen, jonka valitsemisen jälkeen voi painaa "Next". Itse en tehnyt oletukselliseen tallennuskohteeseen muutoksia.
+
+![VM asennus ikkuna 2](https://github.com/Andtonyk/h1---Debian/assets/149326156/2fee0c6c-b00b-43e3-916c-7a2c5196a16e)
 
 Tämän jälkeen VM-asennus ilmoittaa mahdollisesta tarpeesta VM:n verkosto-osien asennuksen yhteydessä hetkellisesti katkaista verkkoyhteyden, jotta käyttäjä voi ottaa kyseisen mahdollisen katkoksen huomioon muussa koneen käytössä.
 Jos mitään sellaista ohjelmaa tai toimintoa ei ole aktiivisena, joka vaatisi katkeamattoman nettiyhteyden voi asennuksen viedä eteenpäin.
 
+![VM asennusikkuna 3](https://github.com/Andtonyk/h1---Debian/assets/149326156/1411c037-252d-4c30-9d8c-628c257e3520)
+
 VM:n asennuksessa kesti itselläni noin minuutti, jonka jälkeen sain onnistuneen asennusilmoituksen ja kysymyksen avataanko VM-ohjelma asennuksen päätyttyä. Itse pidin täpän vaihtoehdossa, joka avasi ohjelman asennuksen päätyttyä.
 
-Kun pystyin todentamaan VM:n toiminnan sen avautumisen ja vetovalikkojen reaktiivisuuksien kautta, siirryin takaisin terokarvinen.com sivulle "Install Debian on Virtualbox - Updated 2023" ja aloitin LInux-paketin lataamisen mahdollistavat toimet.
+Kun pystyin todentamaan VM:n toiminnan sen avautumisen ja vetovalikkojen reaktiivisuuksien kautta, siirryin takaisin terokarvinen.com sivulle "Install Debian on Virtualbox - Updated 2023" ja aloitin Linux-paketin lataamisen mahdollistavat toimet.
 
 ## Debianin asentaminen koneelle ja VirtualMachille
 
-Vielä sivulla "Install Debian on Virtualbox - Updated 2023" oli aika aloittaa Linux-paketin lataus. Tämä oli mahdollista avaamalla sivulla oleva linkki (linkki kuvaan) uuteen välilehteen ja rullaamalla sivua alas, kunnes uusin mahdollinen versio tuli iso-tiedostomuodossa valittavaksi.
-Ohjelma-paketin lataaminen alkoi klikkaamalla haluttua pakettia. Kyseinen "debian-live-12.4.0-amd64-xfce.iso" oli kooltaan 3 Gt, jonka lataamisessa meni itselläni noin 9 minuuttia.
+Vielä sivulla "Install Debian on Virtualbox - Updated 2023" oli aika aloittaa Linux-paketin lataus. 
+Tämä oli mahdollista avaamalla sivulla oleva linkki (live amd64 folder on cdimage.debian.org) uuteen välilehteen ja rullaamalla sivua alas, kunnes uusin mahdollinen versio tuli iso-tiedostomuodossa valittavaksi.
 
+![Teros repository site](https://github.com/Andtonyk/h1---Debian/assets/149326156/d319b3b6-e5fd-4544-8e5b-45600c563813)
+
+Ohjelma-paketin lataaminen alkoi klikkaamalla haluttua pakettia. 
+
+![neweast debian version in its iso formet](https://github.com/Andtonyk/h1---Debian/assets/149326156/f616fa15-214c-4435-8e9f-42fbe5bd35cd)
+
+Kyseinen "debian-live-12.4.0-amd64-xfce.iso" oli kooltaan 3 Gt, jonka lataamisessa meni itselläni noin 9 minuuttia.
 Onnistuneen latauksen jälkeen kyseinen paketti on mahdollista avata VM:llä, jolloin itse Linuxin asentaminen VM:lle saattoi alkaa.
 
 ### Linuxin asentaminen VM:ssä - Ohjelmisto-paketin haku sekä sen virtuaalisien OS-asetuksien määrittäminen
