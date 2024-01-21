@@ -6,7 +6,7 @@ Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS
 
 Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opettajan antaman verkkosivun osoitteen "terokarvinen.com".
 
-Linkki kuvaan
+Teros repository site.PNG
 
 Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
 
