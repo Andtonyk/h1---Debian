@@ -8,13 +8,13 @@ Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opet
 
 ![terokarvinen com perusnakyma](https://github.com/Andtonyk/h1---Debian/assets/149326156/eff34225-b9b8-47a7-abbb-a42cbb99db61)
 
+
 Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
+Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
 
 ![terokarvinen com courses](https://github.com/Andtonyk/h1---Debian/assets/149326156/b1e3f466-aa7a-4626-8108-f1affe85d2d8)
 
-Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
 
-![]()
 
 Sivulla oli paljon tietoa itse kurssista ja useita linkkejä aineistoihin ja tehtäviin liittyen, tämän tehtävän kannalta tärkeimmät olivat sivua alaspäin mennessä kohdassa linkki "Install Debian on Virtualbox - Updated 2023". 
 Kyseisen linkin takaa löytyi saman nimin sivu, jossa oli ohjaistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
