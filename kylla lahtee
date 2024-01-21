@@ -72,7 +72,58 @@ Uusi muodostettava virtuaalikone listautui itselleni Virtual Boxin versiossa 7.0
 Virtuaalikoneen käynnistäminen tapahtuu joko kaksois klikkaamalla haluttua VM:ää, painamalla hiiren oikeaa näppäintä halutun VM:n kohdalla ja valitsemalla avautuvasta valikosta "Start" ja haluttu käynnistys muoto. 
 Kolmas tapa käynnistykselle on painaa VM:ssä sen graafisen käyttöliittymän kohtaa "Start" kun haluttu virtuaalikone on valittuna. "Start" vaihtoehdon alasvetovalikosta on mahdollista valita erillisistä käynnistysmuodoista, joita ei tässä kohtaan kuitenkaan tarvittu.
 
+### Linuxin asennus - Käynnistyksen jälkeiset valinnat
+
 Kun haluttu virtuaalikone on startattu, avaa VM uuden erillisen ikkunen sitä varten.
+Valitsin vaihtoehdon "Live system (amd64)" painamalla Enter-näppäintä. 
+Tämä avasi minulle samassa ikkunassa työpöytä-näkymän, jonka kautta pystyin valitsemaan siinä näkyvän pikakuvake-vaihtoehdon "Install Debian" tupla klikkaamalla sitä.
+Tämä käynnisti varoitusilmoituksen epäluotettavasta applikaatio käynnistymisestä, kyseinen ilmoitus on valitettavasti opettajalta saadun tiedon mukaan osa kokonaisuutta, joten valitsin vaihtoehdon "Launch Anyway".
+
+### Linuxin asennus - Muodostettavan Linuxin asetuksien määrittäminen
+
+Asentimen käynnistyttyä pääsin määrittämään asentimen sekä käyttöjärjestelmän kielen kohdassa "Welcome". 
+Pidin tämän oletuksellisessa vaihtoehdossa "American English" ja valitsin  "Next".
+
+Linkki kuvaan
+
+
+Tämän jälkeen pääsin määrittämään alue- sekä aikavyöhykkeitä kohdassa "Location". 
+Valitsin alueen jolla toimin, käyttäen kartan valintarakennetta ja klikkaamalla Suomea. Tämä muutti kohdat "Region" ja "Zone" sisällöt vastaamaan seuraavia "Europe" ja "Helsinki". 
+Alue- ja aikavyöhykkeiden oltua paikkaansa pitävät, valitsin "Next".
+
+Linkki kuvaan
+
+Kohdassa "Keyboard" määritin näppäimistölleni sen perusasetukset. Valitsin "Keyboard model" kohdassa vaihtoehdon "Generic 105-key PC".
+Näppäimistön kielikenttä asetuksissa valitsin "Finnish" ja alatyypiksi "Default".
+Tämän jälkeen valitsin "Next".
+
+Linkki kuvaan
+
+Kohdassa "Partitions" valitsin BIOS-tietojen kohteen, tämän asetin samaksi kuin virtuaalikoneeni kovalevyn sijainnin.
+Valitsin kovalevyn tietoja koskevista vaihtoehdoista "Erase disk"
+Bootloaderin sijainniksi varmistin saman kuin BIOS-tietojen kohteen, ja varmistin että kohta "Encrypt system" ei ollut valittuna.
+Tämän jälkeen valitsin "Next".
+
+Linkki kuvaan
+
+Kohdassa "Users" syötin etu- sekä sukunimeni kenttää "What is your name?".
+Muodostin itselleni käyttäjätunnuksen syöttämällä käytettävän nimen (andreask) kenttään "What name do you want to use to log in?".
+Nimesin koneeni Ulthweksi kentässä "What is the name of this computer?".
+Lisäsin itselleni salasanan syöttämällä kohdassa "Choose a password to keep your account safe" alla oleviin kahteen kenttään identtisesti.
+En täpännyt vaihtoehtoa "Log in automatically without asking for the password".
+Tämän jälkeen valitsin "Next".
+
+Linkki kuvaan
+
+Kohdassa "Summary" oli listattuna aiemmin syöttämäni tiedot ja niiden tarkistamisen jälkeen valitsin vaihtoehdon "Install".
+
+Linkki kuvaan.
+
+Kohdassa "Install" tuli näkyville asennuspalkki, joka kertoi prosentteina asennuksen etenemisestä tässä meni minun kohdallani noin 6 minuuttia.
+Asennuksen valmistuttua valitsin "Next".
+
+Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, j
+
 
 
 
