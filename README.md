@@ -29,15 +29,20 @@ Kyseisen linkin takaa löytyi saman niminen sivu, jossa oli ohjeistukset sekä l
 
 ## VirtualMachinen asentaminen koneelle
 
-Aloitin sivun kohdasta "Create a New Virtual Machine" avaamalla kentän linkin " download VirtualBox installer" uuteen välilehteen. Linnkki ohjasi minut VirtualMAchinen omien sivujen lataus-vaihtoehtoihin.
-Valitsin näistä uusimmaksi tarjotun vaihtoehdon, joka oli "VirtualBox 7.0.14" käyttöjärjestelmäni ollessa Windows, latasin sille sopivan version. Kyseinen latausvaihtoehto on oletuksellisesti 64-bittinen, ainakin Windowsille. 
-Jos käytössäsi ei ole Windowsia tai jos käyttöjärjestelmäsi vaatii 32-bittisen version, lataa omalle käyttöjärjestelmällesi sopiva versio VM:n lataussivulta.
+Aloitin sivun kohdasta "Create a New Virtual Machine" avaamalla kentän linkin " download VirtualBox installer" uuteen välilehteen. 
+Linkki ohjasi minut VirtualBoxin omien sivujen lataus-vaihtoehtoihin.
 
+![VM site dl screen](https://github.com/Andtonyk/h1---Debian/assets/149326156/7151c1c5-1c53-4033-b564-c627f5cd5738)
+
+Valitsin näistä uusimmaksi tarjotun vaihtoehdon, joka oli "VirtualBox 7.0.14" käyttöjärjestelmäni ollessa Windows, latasin sille sopivan version. Kyseinen latausvaihtoehto oli oletuksellisesti 64-bittinen, ainakin Windowsille. 
+
+Jos käytössäsi ei ole Windowsia tai jos käyttöjärjestelmäsi vaatii 32-bittisen version, lataa omalle käyttöjärjestelmällesi sopiva versio VM:n lataussivulta.
 Onnistuneen latauksen jälkeen avasin tiedoston kansiosta, johon olin sen ladannut.
 
 Asentaminen saattaa vaatia lupaa tietokoneelle tehtävien muutoksien osalta, jos koneen tietoturvassa on asetettu kyseinen varmistus. Tiedostin että olin itse ladannut ohjelman ja asentamassa sitä, joten myönsin sille luvan tehdä muutoksia koneeseeni.
 Sitten avautui itse VM:n asennus ikkuna. 
-linkki kuvaan
+
+
 
 Asennus oli yksinkertainen ja vaati ensin asennuskohdistuksen, jonka valitsemisen jälkeen voi painaa "Next". Itse en tehnyt oletukselliseen tallennuskohteeseen muutoksia.
 
