@@ -6,20 +6,20 @@ Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS
 
 Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opettajan antaman verkkosivun osoitteen "terokarvinen.com".
 
-Teros repository site.PNG
+![]()
 
 Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
 
-Linkki kuvaan
+![]()
 
 Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
 
-Linkki kuvaan
+![]()
 
 Sivulla oli paljon tietoa itse kurssista ja useita linkkejä aineistoihin ja tehtäviin liittyen, tämän tehtävän kannalta tärkeimmät olivat sivua alaspäin mennessä kohdassa linkki "Install Debian on Virtualbox - Updated 2023". 
 Kyseisen linkin takaa löytyi saman nimin sivu, jossa oli ohjaistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
 
-Linkki kuvaan
+![]()
 
 ## VirtualMachinen asentaminen koneelle
 
@@ -65,7 +65,7 @@ VM:n "Hardware" kohta mahdollisti muodostettavan virtuaalisen ympäristön rauda
 
 Valitsin vaihtoehdoista "Create a Virtual Hard Disk now" ja aloin toteuttamaan muutoksia.
 
-kuva perusnäkymästä
+![]()
 
 Oletuksellinen kovalevyn sijainti oli minulle hyväksyttävä, joten en muokannut sitä. Kovalevyn tila oli liian rajallinen, joten kasvatin sen koon 50 Gb:hen.
 Kovalevyn tyypiksi valitsin VDI:n (VDI - Virtual Disk Image), mutta en valinnut sille tallennuskoollisia variaatioita. Tämän jälkeen viimeistelin uuden virtuaalikoneen valitsemalla kohdan "Finish".
@@ -88,26 +88,26 @@ Tämä käynnisti varoitusilmoituksen epäluotettavasta applikaatio käynnistymi
 Asentimen käynnistyttyä pääsin määrittämään asentimen sekä käyttöjärjestelmän kielen kohdassa "Welcome". 
 Pidin tämän oletuksellisessa vaihtoehdossa "American English" ja valitsin  "Next".
 
-Linkki kuvaan
+![]()
 
 Tämän jälkeen pääsin määrittämään alue- sekä aikavyöhykkeitä kohdassa "Location". 
 Valitsin alueen jolla toimin, käyttäen kartan valintarakennetta ja klikkaamalla Suomea. Tämä muutti kohdat "Region" ja "Zone" sisällöt vastaamaan seuraavia "Europe" ja "Helsinki". 
 Alue- ja aikavyöhykkeiden oltua paikkaansa pitävät, valitsin "Next".
 
-Linkki kuvaan
+![]()
 
 Kohdassa "Keyboard" määritin näppäimistölleni sen perusasetukset. Valitsin "Keyboard model" kohdassa vaihtoehdon "Generic 105-key PC".
 Näppäimistön kielikenttä asetuksissa valitsin "Finnish" ja alatyypiksi "Default".
 Tämän jälkeen valitsin "Next".
 
-Linkki kuvaan
+![]()
 
 Kohdassa "Partitions" valitsin BIOS-tietojen kohteen, tämän asetin samaksi kuin virtuaalikoneeni kovalevyn sijainnin.
 Valitsin kovalevyn tietoja koskevista vaihtoehdoista "Erase disk"
 Bootloaderin sijainniksi varmistin saman kuin BIOS-tietojen kohteen, ja varmistin että kohta "Encrypt system" ei ollut valittuna.
 Tämän jälkeen valitsin "Next".
 
-Linkki kuvaan
+![]()
 
 Kohdassa "Users" syötin etu- sekä sukunimeni kenttää "What is your name?".
 Muodostin itselleni käyttäjätunnuksen syöttämällä käytettävän nimen (andreask) kenttään "What name do you want to use to log in?".
@@ -116,27 +116,27 @@ Lisäsin itselleni salasanan syöttämällä kohdassa "Choose a password to keep
 En täpännyt vaihtoehtoa "Log in automatically without asking for the password".
 Tämän jälkeen valitsin "Next".
 
-Linkki kuvaan
+![]()
 
 Kohdassa "Summary" oli listattuna aiemmin syöttämäni tiedot. Jotta sain näkyville vaihtoehdon "Install" valitsin ruudun oikeassa yläkulmassa näkyvän sivun suurentamisen ikonin.
 Tietojen tarkistamisen jälkeen valitsin vaihtoehdon "Install".
 
-Linkki kuvaan.
+![]()
 
 Kohdassa "Install" tuli näkyville asennuspalkki, joka kertoi prosentteina asennuksen etenemisestä tässä meni minun kohdallani noin 5 minuuttia.
 Asennuksen valmistuttua näkymä siirtyy automaattisesti viimeiseen kenttään "Install".
 
-Linkki kuvaan
+![]()
 
 Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, jonka toteutin automaattisesti jättämällä täpän kohtaan "Restart now" ja valitsemalla tämän jälkeen "Done".
 
-Linkki kuvaan
+![]()
 
 Uudelleen käynnistyksen jälkeen näkymä uudelleen käynnistyy sisäänkirjautumisen näkymään. Syötin tässä aiemmin muodostamini käyttäjätunnuksen sekä salasanan ja valitsin "Log In".
 
-Linkki kuvaan
+![]()
 
 Virtuaalikone avautui käyttöjärjestelmän mukaiseen työpöytä-näkymään, jonka jälkeen avasin firefoxin ja syötin selaimen url-kenttään "terokarvinen.com". 
 Sivu avautui ongelmitta, joka tarkoitti että virtuaalisen koneeni verkkoyhteys toimi ja pystyin ilmoittamaan testini onnistuneesti suoritetuksi.
 
-Linkki kuvaan
+![]()
