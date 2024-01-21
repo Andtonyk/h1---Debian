@@ -115,14 +115,15 @@ Tämän jälkeen valitsin "Next".
 
 Linkki kuvaan
 
-Kohdassa "Summary" oli listattuna aiemmin syöttämäni tiedot ja niiden tarkistamisen jälkeen valitsin vaihtoehdon "Install".
+Kohdassa "Summary" oli listattuna aiemmin syöttämäni tiedot. Jotta sain näkyville vaihtoehdon "Install" valitsin ruudun oikeassa yläkulmassa näkyvän sivun suurentamisen ikonin.
+Tietojen tarkistamisen jälkeen valitsin vaihtoehdon "Install".
 
 Linkki kuvaan.
 
-Kohdassa "Install" tuli näkyville asennuspalkki, joka kertoi prosentteina asennuksen etenemisestä tässä meni minun kohdallani noin 6 minuuttia.
-Asennuksen valmistuttua valitsin "Next".
+Kohdassa "Install" tuli näkyville asennuspalkki, joka kertoi prosentteina asennuksen etenemisestä tässä meni minun kohdallani noin 5 minuuttia.
+Asennuksen valmistuttua näkymä siirtyy automaattisesti viimeiseen kenttään "Install".
 
-Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, j
+Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, jonka toteutin automaattisesti jättämällä täpän kohtaan "Restart now" ja valitsemalla tämän jälkeen "Done".
 
 
 
