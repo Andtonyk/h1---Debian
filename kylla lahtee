@@ -45,12 +45,36 @@ Ohjelma-paketin lataaminen alkoi klikkaamalla haluttua pakettia. Kyseinen "debia
 
 Onnistuneen latauksen jälkeen kyseinen paketti on mahdollista avata VM:llä, jolloin itse Linuxin asentaminen VM:lle saattoi alkaa.
 
-## Linuxin asentaminen VM:ssä
+### Linuxin asentaminen VM:ssä - Ohjelmisto-paketin haku sekä sen virtuaalisien OS-asetuksien määrittäminen
 
 Käynnistin VM:n sen pikakuvakkeen kautta ja ohjelman avauduttua graafiseksi näkymäksi valitse vaihtoehto "New" tai yläpalkin alasvetovalikosta "Machine" sama vaihtoehto "New".
 
 Kyseinen valinta avasi valikko-rakenteen, jossa pääsin muodostamaan tulevaan virtuaaliseen ympäristöön liittyviä valintoja. Ensiksi oli tärkeää nimetä virtuaalinen ympäristö. Kyseinen nimi on se jolla se listautuu VM:ään.
 Samassa näkymässä tulee valita muodostettavan virtuaalikoneen kohde kansio sekä ISO-tiedosto, joka esimerkissämme oli ladattu debian tiedosto. Etsin tämän jälkeen debian-pakettini "debian-live-12.4.0-amd64-xfce" siitä polusta, johon olin asettanut sen.
-Kun haluttu ISO-paketti oli valittu ja "Skip Unattended Install" oli myös täpättynä, siirryin seuraavaan vaiheeseen.
+Kun haluttu ISO-paketti oli valittu, OS:n tyyppi (Linux) sekä versio (Debian 64 bit) varmistettu ja "Skip Unattended Install" oli täpättynä, siirryin seuraavaan vaiheeseen kohdassa "Hardware".
+
+### Linuxin asentaminen VM:ssä - Virtuaalikoneen raudallisien asetuksien määrittäminen
+VM:n "Hardware" kohta mahdollisti muodostettavan virtuaalisen ympäristön raudalliset rajoitteet RAM:in ja Prosessorien määrien asettamisella. Oletukselliset valinnat olivat liian alhaiset tarpeisiimmme, joten muokkasin prosessorien määrän kahteen ja RAM:in määrän 4000 Mb:hen.
+"Enable EFI" kohdan jätin tyhjäksi, sillä debian ei vaatinut sitä onnistuneen asennuksen toteuttamiseksi. Tämän jälkeen siirryin määrittämään virtuaalisen koneen kovalevyllisiä asetuksia kohdasta "Hard Disk".
+
+### Linuxin asentaminen VM:ssä -Virtuaalikoneen kovalellysien asetuksien määrittäminen
+
+Valitsin vaihtoehdoista "Create a Virtual Hard Disk now" ja aloin toteuttamaan muutoksia.
+
+kuva perusnäkymästä
+
+Oletuksellinen kovalevyn sijainti oli minulle hyväksyttävä, joten en muokannut sitä. Kovalevyn tila oli liian rajallinen, joten kasvatin sen koon 50 Gb:hen.
+Kovalevyn tyypiksi valitsin VDI:n (VDI - Virtual Disk Image), mutta en valinnut sille tallennuskoollisia variaatioita. Tämän jälkeen viimeistelin uuden virtuaalikoneen valitsemalla kohdan "Finish".
+
+## Muodostetun virtuaalikoneen asentaminen VM:ssä
+
+Uusi muodostettava virtuaalikone listautui itselleni Virtual Boxin versiossa 7.0.14 sivun vasempaan laitaan. Klikkaamalla haluttua virtuaalikonetta, tulee näkyville sen tiedot, koska nämä olivat itselläni viitteellisissä raameissa, siirryin käynnistämään kyseisen virtuaalikoneen.
+Virtuaalikoneen käynnistäminen tapahtuu joko kaksois klikkaamalla haluttua VM:ää, painamalla hiiren oikeaa näppäintä halutun VM:n kohdalla ja valitsemalla avautuvasta valikosta "Start" ja haluttu käynnistys muoto. 
+Kolmas tapa käynnistykselle on painaa VM:ssä sen graafisen käyttöliittymän kohtaa "Start" kun haluttu virtuaalikone on valittuna. "Start" vaihtoehdon alasvetovalikosta on mahdollista valita erillisistä käynnistysmuodoista, joita ei tässä kohtaan kuitenkaan tarvittu.
+
+Kun haluttu virtuaalikone on startattu, avaa VM uuden erillisen ikkunen sitä varten.
+
+
+
 
 
