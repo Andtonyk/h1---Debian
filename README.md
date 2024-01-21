@@ -10,7 +10,7 @@ Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opet
 
 Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
 
-![]()
+![terokarvinen com courses](https://github.com/Andtonyk/h1---Debian/assets/149326156/b1e3f466-aa7a-4626-8108-f1affe85d2d8)
 
 Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
 
