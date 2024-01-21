@@ -20,9 +20,12 @@ Sivulla oli paljon tietoa itse kurssista ja useita linkkejä aineistoihin ja teh
 
 ![terokarvinen com linux info and links](https://github.com/Andtonyk/h1---Debian/assets/149326156/aa83e4d6-a459-4a89-8e03-3786427928c0)
 
-Kyseisen linkin takaa löytyi saman nimin sivu, jossa oli ohjaistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
+Kyseisen linkin takaa löytyi saman niminen sivu, jossa oli ohjeistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
 
 ![VM dl link and debian dl links](https://github.com/Andtonyk/h1---Debian/assets/149326156/a00e4ddf-4445-4d07-b41f-fd115a6ffdcc)
+
+
+
 
 ## VirtualMachinen asentaminen koneelle
 
