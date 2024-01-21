@@ -73,15 +73,21 @@ Onnistuneen latauksen jälkeen kyseinen paketti on mahdollista avata VM:llä, jo
 
 ### Linuxin asentaminen VM:ssä - Ohjelmisto-paketin haku sekä sen virtuaalisien OS-asetuksien määrittäminen
 
-Käynnistin VM:n sen pikakuvakkeen kautta ja ohjelman avauduttua graafiseksi näkymäksi valitse vaihtoehto "New" tai yläpalkin alasvetovalikosta "Machine" sama vaihtoehto "New".
+Käynnistin VM:n sen pikakuvakkeen kautta ja ohjelman avauduttua graafiseksi näkymäksi valitsin vaihtoehdon "New". Sen voi myös valita yläpalkin alasvetovalikosta "Machine".
 
-Kyseinen valinta avasi valikko-rakenteen, jossa pääsin muodostamaan tulevaan virtuaaliseen ympäristöön liittyviä valintoja. Ensiksi oli tärkeää nimetä virtuaalinen ympäristö. Kyseinen nimi on se jolla se listautuu VM:ään.
-Samassa näkymässä tulee valita muodostettavan virtuaalikoneen kohde kansio sekä ISO-tiedosto, joka esimerkissämme oli ladattu debian tiedosto. Etsin tämän jälkeen debian-pakettini "debian-live-12.4.0-amd64-xfce" siitä polusta, johon olin asettanut sen.
+Kyseinen valinta avasi valikko-rakenteen, jossa pääsin muodostamaan tulevaan virtuaaliseen ympäristöön liittyviä valintoja.
+Ensiksi oli tärkeää nimetä virtuaalinen ympäristö. Kyseinen nimi on se jolla se listautuu VM:ään.
+Samassa näkymässä tulee valita muodostettavan virtuaalikoneen kohde kansio sekä ISO-tiedosto, joka esimerkissämme oli ladattu debian tiedosto. 
+Etsin tämän jälkeen debian-pakettini "debian-live-12.4.0-amd64-xfce" siitä polusta, johon olin asettanut sen.
 Kun haluttu ISO-paketti oli valittu, OS:n tyyppi (Linux) sekä versio (Debian 64 bit) varmistettu ja "Skip Unattended Install" oli täpättynä, siirryin seuraavaan vaiheeseen kohdassa "Hardware".
+
+![VMssä uuden osin asentamisen valinnat 2-vaihe](https://github.com/Andtonyk/h1---Debian/assets/149326156/ecfdee0e-0a3d-4767-9f9f-e45067c7553d)
 
 ### Linuxin asentaminen VM:ssä - Virtuaalikoneen raudallisien asetuksien määrittäminen
 VM:n "Hardware" kohta mahdollisti muodostettavan virtuaalisen ympäristön raudalliset rajoitteet RAM:in ja Prosessorien määrien asettamisella. Oletukselliset valinnat olivat liian alhaiset tarpeisiimmme, joten muokkasin prosessorien määrän kahteen ja RAM:in määrän 4000 Mb:hen.
 "Enable EFI" kohdan jätin tyhjäksi, sillä debian ei vaatinut sitä onnistuneen asennuksen toteuttamiseksi. Tämän jälkeen siirryin määrittämään virtuaalisen koneen kovalevyllisiä asetuksia kohdasta "Hard Disk".
+
+![VMssä uuden osin asentamisen valinnat 4-vaihe  cpu ja ram muokattu ohjeiden mukaisesti](https://github.com/Andtonyk/h1---Debian/assets/149326156/52710a4b-254c-4d27-ae71-39d692992c27)
 
 ### Linuxin asentaminen VM:ssä -Virtuaalikoneen kovalellysien asetuksien määrittäminen
 
