@@ -92,50 +92,62 @@ VM:n "Hardware" kohta mahdollisti muodostettavan virtuaalisen ympäristön rauda
 ### Linuxin asentaminen VM:ssä -Virtuaalikoneen kovalellysien asetuksien määrittäminen
 
 Valitsin vaihtoehdoista "Create a Virtual Hard Disk now" ja aloin toteuttamaan muutoksia.
-
-![]()
-
-Oletuksellinen kovalevyn sijainti oli minulle hyväksyttävä, joten en muokannut sitä. Kovalevyn tila oli liian rajallinen, joten kasvatin sen koon 50 Gb:hen.
+Oletuksellinen kovalevyn sijainti oli minulle hyväksyttävä, joten en muokannut sitä. 
+Kovalevyn tila oli liian rajallinen, joten kasvatin sen koon 60 Gb:hen.
 Kovalevyn tyypiksi valitsin VDI:n (VDI - Virtual Disk Image), mutta en valinnut sille tallennuskoollisia variaatioita. Tämän jälkeen viimeistelin uuden virtuaalikoneen valitsemalla kohdan "Finish".
+
+![VMssä uuden osin asentamisen valinnat 5-vaihe  kovalevyn koko, sijainti ja muoto sekä viimeistely](https://github.com/Andtonyk/h1---Debian/assets/149326156/fd18449e-c09c-478e-835e-37455ac4ea49)
 
 ## Muodostetun virtuaalikoneen asentaminen VM:ssä
 
-Uusi muodostettava virtuaalikone listautui itselleni Virtual Boxin versiossa 7.0.14 sivun vasempaan laitaan. Klikkaamalla haluttua virtuaalikonetta, tulee näkyville sen tiedot, koska nämä olivat itselläni viitteellisissä raameissa, siirryin käynnistämään kyseisen virtuaalikoneen.
+Uusi muodostettava virtuaalikone listautui itselleni Virtual Boxin versiossa 7.0.14 sivun vasempaan laitaan. 
+Klikkaamalla haluttua virtuaalikonetta, tulee näkyville sen tiedot, koska nämä olivat itselläni viitteellisissä raameissa, siirryin käynnistämään kyseisen virtuaalikoneen.
 Virtuaalikoneen käynnistäminen tapahtuu joko kaksois klikkaamalla haluttua VM:ää, painamalla hiiren oikeaa näppäintä halutun VM:n kohdalla ja valitsemalla avautuvasta valikosta "Start" ja haluttu käynnistys muoto. 
 Kolmas tapa käynnistykselle on painaa VM:ssä sen graafisen käyttöliittymän kohtaa "Start" kun haluttu virtuaalikone on valittuna. "Start" vaihtoehdon alasvetovalikosta on mahdollista valita erillisistä käynnistysmuodoista, joita ei tässä kohtaan kuitenkaan tarvittu.
+
+![VM avattu ja silla iso tunnisteellinen debian paketti opettajan sivulta](https://github.com/Andtonyk/h1---Debian/assets/149326156/c8f4d203-831d-4120-8a1d-3521dbe99a8d)
 
 ### Linuxin asennus - Käynnistyksen jälkeiset valinnat
 
 Kun haluttu virtuaalikone on startattu, avaa VM uuden erillisen ikkunen sitä varten.
 Valitsin vaihtoehdon "Live system (amd64)" painamalla Enter-näppäintä. 
+
+
+![Muistin vaarin, sehan meni liven kautta  debianin asentaminen](https://github.com/Andtonyk/h1---Debian/assets/149326156/6d636ad9-f880-4751-bbfe-49d9826017ec)
+
 Tämä avasi minulle samassa ikkunassa työpöytä-näkymän, jonka kautta pystyin valitsemaan siinä näkyvän pikakuvake-vaihtoehdon "Install Debian" tupla klikkaamalla sitä.
+
+![Debianin onnistunut live avaus](https://github.com/Andtonyk/h1---Debian/assets/149326156/550ffa4e-5a2f-457d-96d4-140d492932d3)
+
 Tämä käynnisti varoitusilmoituksen epäluotettavasta applikaatio käynnistymisestä, kyseinen ilmoitus on valitettavasti opettajalta saadun tiedon mukaan osa kokonaisuutta, joten valitsin vaihtoehdon "Launch Anyway".
+
+![Debianin asennustoiminnon aktivointi onnistui, vastataan myonteisesti](https://github.com/Andtonyk/h1---Debian/assets/149326156/d43fdd79-80ea-42a9-ab2b-5b6c283d6ff9)
 
 ### Linuxin asennus - Muodostettavan Linuxin asetuksien määrittäminen
 
 Asentimen käynnistyttyä pääsin määrittämään asentimen sekä käyttöjärjestelmän kielen kohdassa "Welcome". 
 Pidin tämän oletuksellisessa vaihtoehdossa "American English" ja valitsin  "Next".
 
-![]()
+![Ensi nakyma](https://github.com/Andtonyk/h1---Debian/assets/149326156/9af2a56f-8177-4da0-b72d-6e7685d5ea1c)
 
 Tämän jälkeen pääsin määrittämään alue- sekä aikavyöhykkeitä kohdassa "Location". 
 Valitsin alueen jolla toimin, käyttäen kartan valintarakennetta ja klikkaamalla Suomea. Tämä muutti kohdat "Region" ja "Zone" sisällöt vastaamaan seuraavia "Europe" ja "Helsinki". 
 Alue- ja aikavyöhykkeiden oltua paikkaansa pitävät, valitsin "Next".
 
-![]()
+![Sijainti - toinen nakyma](https://github.com/Andtonyk/h1---Debian/assets/149326156/65be1b35-7ef4-4bf9-b210-f1c390e5043f)
 
 Kohdassa "Keyboard" määritin näppäimistölleni sen perusasetukset. Valitsin "Keyboard model" kohdassa vaihtoehdon "Generic 105-key PC".
 Näppäimistön kielikenttä asetuksissa valitsin "Finnish" ja alatyypiksi "Default".
 Tämän jälkeen valitsin "Next".
 
-![]()
+![Nappaimisto - kolmas nakyma](https://github.com/Andtonyk/h1---Debian/assets/149326156/a6c5ac54-08fe-4940-855e-528c96974627)
 
 Kohdassa "Partitions" valitsin BIOS-tietojen kohteen, tämän asetin samaksi kuin virtuaalikoneeni kovalevyn sijainnin.
 Valitsin kovalevyn tietoja koskevista vaihtoehdoista "Erase disk"
 Bootloaderin sijainniksi varmistin saman kuin BIOS-tietojen kohteen, ja varmistin että kohta "Encrypt system" ei ollut valittuna.
 Tämän jälkeen valitsin "Next".
 
-![]()
+![Kovalevyn ositus - neljas osio](https://github.com/Andtonyk/h1---Debian/assets/149326156/631e268d-4330-4da4-8443-b85351553747)
 
 Kohdassa "Users" syötin etu- sekä sukunimeni kenttää "What is your name?".
 Muodostin itselleni käyttäjätunnuksen syöttämällä käytettävän nimen (andreask) kenttään "What name do you want to use to log in?".
@@ -144,27 +156,27 @@ Lisäsin itselleni salasanan syöttämällä kohdassa "Choose a password to keep
 En täpännyt vaihtoehtoa "Log in automatically without asking for the password".
 Tämän jälkeen valitsin "Next".
 
-![]()
+![Kayttaja - viides osio](https://github.com/Andtonyk/h1---Debian/assets/149326156/85ed8f19-345a-4f3d-ba40-dde7b1002b2d)
 
 Kohdassa "Summary" oli listattuna aiemmin syöttämäni tiedot. Jotta sain näkyville vaihtoehdon "Install" valitsin ruudun oikeassa yläkulmassa näkyvän sivun suurentamisen ikonin.
 Tietojen tarkistamisen jälkeen valitsin vaihtoehdon "Install".
 
-![]()
+![Koonti - kuudes osio](https://github.com/Andtonyk/h1---Debian/assets/149326156/5ee24a44-ce1e-4741-af81-58a1c14f2aa1)
 
 Kohdassa "Install" tuli näkyville asennuspalkki, joka kertoi prosentteina asennuksen etenemisestä tässä meni minun kohdallani noin 5 minuuttia.
 Asennuksen valmistuttua näkymä siirtyy automaattisesti viimeiseen kenttään "Install".
 
-![]()
+![Asennus aloitettu](https://github.com/Andtonyk/h1---Debian/assets/149326156/ab5e1d55-1d0d-4f51-bf94-3b9cb62d5136)
 
 Kohdassa "Finish" asennin ilmoittaa uudelleen käynnistyksen tarpeesta, jonka toteutin automaattisesti jättämällä täpän kohtaan "Restart now" ja valitsemalla tämän jälkeen "Done".
 
-![]()
+![Asennuksen onnistumisen näkymä](https://github.com/Andtonyk/h1---Debian/assets/149326156/47c3b1d7-11d4-4b24-a019-d8598db72901)
 
 Uudelleen käynnistyksen jälkeen näkymä uudelleen käynnistyy sisäänkirjautumisen näkymään. Syötin tässä aiemmin muodostamini käyttäjätunnuksen sekä salasanan ja valitsin "Log In".
 
-![]()
+![Sisaankirjautumisen testaus](https://github.com/Andtonyk/h1---Debian/assets/149326156/1b7d8eb9-0431-4fd5-93c6-5c00340b9046)
 
 Virtuaalikone avautui käyttöjärjestelmän mukaiseen työpöytä-näkymään, jonka jälkeen avasin firefoxin ja syötin selaimen url-kenttään "terokarvinen.com". 
 Sivu avautui ongelmitta, joka tarkoitti että virtuaalisen koneeni verkkoyhteys toimi ja pystyin ilmoittamaan testini onnistuneesti suoritetuksi.
 
-![]()
+![Sisaankirjautuminen toimi ja samoin verkko](https://github.com/Andtonyk/h1---Debian/assets/149326156/f2baf909-015d-4b75-a84a-280665e071f4)
