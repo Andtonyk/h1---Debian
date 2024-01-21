@@ -5,17 +5,21 @@ Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS
 ## Asennusta edeltavät toimet
 
 Aloitin tehtävän kirjoittamalla käyttämääni selaimeen (Google Chrome) opettajan antaman verkkosivun osoitteen "terokarvinen.com".
+
 Linkki kuvaan
 
-
 Tämän jälkeen jälkeen valitsin sivun navigointipalkeista vaihtoehdon "Courses", eli kurssit, jonka kautta oletin pääseväni alkaneen kurssin sisältöön.
-linkki kuvaan
+
+Linkki kuvaan
 
 Kursseja oli sivulla useita, joten valitsin niistä nimellisellä tunnisteella osallistumistani vastaavan "Linux Palvelimet 2024 alkukevät".
-linkki kuvaan
+
+Linkki kuvaan
 
 Sivulla oli paljon tietoa itse kurssista ja useita linkkejä aineistoihin ja tehtäviin liittyen, tämän tehtävän kannalta tärkeimmät olivat sivua alaspäin mennessä kohdassa linkki "Install Debian on Virtualbox - Updated 2023". 
 Kyseisen linkin takaa löytyi saman nimin sivu, jossa oli ohjaistukset sekä linkit itse tehtävän toteuttamisen kannalta olennaisiin softiin sekä toimiin.
+
+Linkki kuvaan
 
 ## VirtualMachinen asentaminen koneelle
 
@@ -23,7 +27,7 @@ Aloitin sivun kohdasta "Create a New Virtual Machine" avaamalla kentän linkin "
 Valitsin näistä uusimmaksi tarjotun vaihtoehdon, joka oli "VirtualBox 7.0.14" käyttöjärjestelmäni ollessa Windows, latasin sille sopivan version. Kyseinen latausvaihtoehto on oletuksellisesti 64-bittinen, ainakin Windowsille. 
 Jos käytössäsi ei ole Windowsia tai jos käyttöjärjestelmäsi vaatii 32-bittisen version, lataa omalle käyttöjärjestelmällesi sopiva versio VM:n lataussivulta.
 
-Onnistuneen latauksen jälkeen avasin tiedoston kansiosta, johon sen latasin.
+Onnistuneen latauksen jälkeen avasin tiedoston kansiosta, johon olin sen ladannut.
 
 Asentaminen saattaa vaatia lupaa tietokoneelle tehtävien muutoksien osalta, jos koneen tietoturvassa on asetettu kyseinen varmistus. Tiedostin että olin itse ladannut ohjelman ja asentamassa sitä, joten myönsin sille luvan tehdä muutoksia koneeseeni.
 Sitten avautui itse VM:n asennus ikkuna. 
