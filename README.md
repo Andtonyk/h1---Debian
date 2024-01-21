@@ -1,3 +1,45 @@
+# H1 - Oma Linux - X-Osio
+
+# Vapaa =/= ilmainen ja ilmainen =/= vapaa!
+
+## Vapaa ohjelmisto,  onko sellaista?
+
+Termillä "Free software" ei tarkoiteta ohjelmaa joka ei voisi maksaa jotakin, vaan ohjelmaa jota voi omissa käsissä vapaasti muokata, kopioida ja käyttää.
+
+Termi ei siis tarkoita samaa asiaa kuin "vapaa lähdekoodi". Vapaalla lähdekoodilla toteutetuissa ohjelmistoissa ei ole "vapaan ohjelmiston" mukaista perusajatusta, joka pohjaisi itseään kollektiivisuuteen ja etiikkaan.
+Vapaan lähdekoodin projekti voi täyttää vapaan ohjelmiston mukaiset kriteerit, mutta tämä ei ole taattua tai mitenkään oletettavissa.
+
+## Vapaan ohjelmiston neljä virstaan pylvästä 
+
+- Vapaus käyttää ohjelmistoa miten käyttäjä haluaa ja vapaus tutustua ohjelmiston koodiin sekä sen toimintoihin, rajoituksetta. 
+- Vapaus muokata ohjelmaa niin että se toteuttaa ohjelmistollisia toimintoja sinun ohjelmoimallasi tavalla. 
+- Vapaus jakaa ohjelmistosta kopioita, ilman erillisien lupien tarvetta.
+- Vapaus jakaa alkuperäisestä ohjelmistosta muokattuja versioita eteenpäin, ilman erillisien lupien tarvetta.
+
+Kaikki muokkaamiseen ja muokkaamista edistäviin toimiin, kuten koodiin tutustumiseen liittyvät osioita vaativat että käyttäjällä on vapaa pääsy lähdekoodiin.
+Ilman kyseistä eri vapautta, ei ohjelmistoa pystyisi muokkaamaan yhtä jouhevasti tai muokkaamisen helpottavia otteita koodista pääsisi katsomaan.
+
+## Tulisiko vapaan ohjelman astua maksullisuuden varpaille?
+
+Lyhyesti: ei. Pidemmän kautta ei, mutta...: Vapailla ohjelmilla tulee olla mahdollisuus toteuttaa yrityksien- sekä käyttäjien ympäristöihin soveltuvia ohjelmistoja. Isoin kysymys tulee mahdollisien maksullisuuden muotojen analysoinnissa. 
+Esimerkiksi IT-ammattilaiselle palkan maksaminen, jotta tämä kehittäisi- tai jatko kehittäisi jotakin ohjelmisto kokonaisuutta voidaan katsoa maksulliseksi, mutta se ei ole vapaan ohjelmiston periaatteiden vastaista. 
+Maksullisuus voidaan nähdä vapaata ohjelmistoa vastaisena ideana jos se estäisi vapaan ohjelmiston neljää peruspilaria toteutumasta, muttei tapauksessa jossa maksettua sisältöä saisi jakaa eteenpäin, muokata ja käyttää vapaasti.
+Osa kyseistä kokonaisuutta olisi ostetun ohjelmistopaketin logojen ja mahdollisen nimen vaihtaminen ennen sen eteenpäin jakamista. Tästä tosin huomiona että ohjelmiston tulee silti olla ajettavissa nimen muuttamisen jälkeenkin, eli nimen muuttaminen ei saa vaikuttaa 
+ohjelmiston kriittisien toimintojen toteutumista estäviksi.
+
+## Yar har dubadidii, onko piratoinnilla ja vapaalla ohjelmistolla jotain yhteistä?
+
+Kyseisillä termeillä ja niihin sidotuilla merkityksillä ei ole mitään tekemistä toistensa kanssa. Vapaa ohjelmisto ei takaa ilmaisuutta ja pyrkii toimimaan ajatusmaailmojen ja etiikan muuttujana. 
+Piratismi taas voidaan nähdä enemmänkin henkilön omana ratkaisuna ja vastalauseena jo vallitseviin ajatusmaailmoihin ja niiden ympärille rakennettuihin "eettisiin" toimintamalleihin, mutta se ei itsessään pyri muuttamaan tai muokkaamaan yhteiskuntaa ja sen toimintamalleja.
+
+## Ohjekirja kuuluu pakettiin!
+
+Vapaan ohjelmiston teeseihin kuuluu myös sisällyttää mahdollisen ohjelman lisäksi siihen liittyvä ohjeellinen dokumentaatio, sillä ohjelma ja ohjelman toiminnan kartoittava teksti nähdään erottumattomasti toisiinsa liitetyiksi.
+
+---
+
+# H1 - Oma linux - A-Osio
+
 Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS:llä, Google Chrome selaimella ja koneena on toiminut Legion 5 kannettava. 16Gt RAM, AMD Ryzen 7 5800H, NVIDIA Geforce 3070 ja 200GB vapaata levytilaa SSD-levyasemalla.
 
 # Alku laukaus Linuxille ja hyvää jatkoa VirtualMachinelle
