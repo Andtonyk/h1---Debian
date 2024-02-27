@@ -42,7 +42,7 @@ Vapaan ohjelmiston teeseihin kuuluu myös sisällyttää mahdollisen ohjelman li
 
 # H1 - Oma linux - A-Osio
 
-Tehtävä H1 - LInuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS:llä, Google Chrome selaimella ja koneena on toiminut Legion 5 kannettava. 16Gt RAM, AMD Ryzen 7 5800H, NVIDIA Geforce 3070 ja 200GB vapaata levytilaa SSD-levyasemalla.
+Tehtävä H1 - Linuxin asentaminen VirtualMachinelle on toteutettu Windows 10 OS:llä, Google Chrome selaimella ja koneena on toiminut Legion 5 kannettava. 16Gt RAM, AMD Ryzen 7 5800H, NVIDIA Geforce 3070 ja 200GB vapaata levytilaa SSD-levyasemalla.
 
 # Alku laukaus Linuxille ja hyvää jatkoa VirtualMachinelle
 
